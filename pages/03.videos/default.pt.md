@@ -1,15 +1,16 @@
 ---
 title: Videos
-hero_classes: ''
-hero_image: ''
 content:
     items: '- ''@self.children'''
-    limit: '5'
     order:
         by: date
         dir: desc
+    limit: '5'
     pagination: '1'
     url_taxonomy_filters: '1'
+visible: true
+hero_classes: ''
+hero_image: ''
 ---
 
 #videos
