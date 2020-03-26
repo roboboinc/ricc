@@ -10,4 +10,4 @@ body_classes: 'title-center title-h1h2'
 Parabens por conseguires aceder a nossa rede, clique aqui para acederes aos [videos](/blog)
 
 ![Coronavirus Flyer MINED](Coronavirus%20Contactos%20emergencias.jpg?lightbox=600,400&resize=200,400)
-![Como Previnir do Corona](Cartaz%20Coronavirus%20Homepage.jpg)
+![Como Previnir do Corona](Cartaz%20Coronavirus%20Homepage.jpg?lightbox=600,400&resize=200,400)
