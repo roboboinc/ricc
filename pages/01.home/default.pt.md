@@ -4,7 +4,7 @@ media_order: 'Cartaz Coronavirus Os Simtomas.jpg'
 body_classes: 'title-center title-h1h2'
 ---
 
-# Ola!
+# Olá!
 ## Seja Bem Vindo à RICC
 
 Parabens por conseguires aceder a nossa rede.
