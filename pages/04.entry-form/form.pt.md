@@ -1,5 +1,5 @@
 ---
-title: 'A Page with an Example Form'
+title: 'Informção do utente'
 form:
     name: contact-form
     fields:
