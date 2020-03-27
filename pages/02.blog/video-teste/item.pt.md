@@ -1,6 +1,7 @@
 ---
 title: 'Video Teste'
-visible: true
+published: false
+visible: false
 show_sidebar: true
 show_pagination: true
 ---
