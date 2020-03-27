@@ -2,6 +2,9 @@
 title: Home
 media_order: 'Cartaz Coronavirus Os Simtomas.jpg'
 body_classes: 'title-center title-h1h2'
+twig_first: true
+process:
+    twig: true
 ---
 
 # Olá!
@@ -13,3 +16,12 @@ Parabens por conseguires aceder a nossa rede.
 ![Coronavirus Flyer MINED](Coronavirus%20Contactos%20emergencias.jpg?lightbox=600,400&resize=200,400)
 ![](Cartaz%20Coronavirus%20Os%20Simtomas.jpg?lightbox=600,400&resize=200,400)
 ![Como Previnir do Corona](Cartaz%20Coronavirus%20Homepage.jpg?lightbox=600,400&resize=200,400)
+
+**Artigos mais recentes:**
+<ul>
+{% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
+    <li class="recent-posts">
+        <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+    </li>
+{% endfor %}
+</ul>
