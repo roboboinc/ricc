@@ -1,6 +1,6 @@
 ---
 title: Home
-media_order: 'Cartaz Coronavirus Os Simtomas.jpg'
+media_order: 'Cartaz Coronavirus Os Simtomas.jpg,Cartaz Coronavirus Homepage.jpg,Coronavirus Contactos emergencias.jpg'
 body_classes: 'title-center title-h1h2'
 process:
     markdown: true
