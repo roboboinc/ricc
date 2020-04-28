@@ -2,17 +2,21 @@
 title: Home
 media_order: 'Cartaz Coronavirus Os Simtomas.jpg'
 body_classes: 'title-center title-h1h2'
-twig_first: true
 process:
+    markdown: true
     twig: true
+twig_first: true
 ---
 
 # Olá!
 ## Seja Bem Vindo à RICC
 
-Parabens por conseguires aceder a nossa rede.
-[Ver Videos](/videos?classes=button,big)
+Parabéns por conseguires aceder a nossa rede.
 
+Veja o video do PSI ![Jeito_final%20-%20Wi-Fi.m4v](/blog/psi/Jeito_final%20-%20Wi-Fi.m4v?loop=1&controls=1&autoplay=0)
+[PSI](/blog/psi)
+
+[Ver Videos](/videos?classes=button,big)
 ![Coronavirus Flyer MINED](Coronavirus%20Contactos%20emergencias.jpg?lightbox=600,400&resize=200,400)
 ![](Cartaz%20Coronavirus%20Os%20Simtomas.jpg?lightbox=600,400&resize=200,400)
 ![Como Previnir do Corona](Cartaz%20Coronavirus%20Homepage.jpg?lightbox=600,400&resize=200,400)
