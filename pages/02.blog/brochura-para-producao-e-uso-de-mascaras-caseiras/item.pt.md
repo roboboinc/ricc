@@ -1,5 +1,6 @@
 ---
 title: 'Brochura para Produção e Uso de Máscaras Caseiras'
+media_order: 'Brochura Mascaras.pdf.pdf.pdf'
 date: '04:14 28-04-2020'
 hide_git_sync_repo_link: false
 blog_url: /blog
