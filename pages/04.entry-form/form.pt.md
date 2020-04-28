@@ -1,5 +1,6 @@
 ---
-title: 'Informção do utente'
+title: 'Informação do utente'
+hide_git_sync_repo_link: false
 form:
     name: contact-form
     fields:
