@@ -14,6 +14,7 @@ twig_first: true
 Parabéns por conseguires aceder a nossa rede.
 
 Veja o video do PSI ![Jeito_final%20-%20Wi-Fi.m4v](/blog/psi/Jeito_final%20-%20Wi-Fi.m4v?loop=1&controls=1&autoplay=0)
+
 [PSI](/blog/psi)
 
 [Ver Videos](/videos?classes=button,big)
