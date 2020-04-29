@@ -13,7 +13,4 @@ feed:
 ---
 
 O Ministério da Saúde (MISAU) compartilha uma brochura para a produção e uso de máscaras caseiras.  Lembre-se de manter o distanciamento social e lavar as mãos com freqüência.  Permaneça em casa se puder e, quando sair ou quando esteija com outras pessoas, use a máscara. Fique seguro para que todos possamos estar seguros. Se tiver dúvidas sobre o CoVid-19, lique para *660#
-
-===
-
-Your page content goes here.
+Aceda à brochura aqui: [Brochura Mascaras.pdf.pdf.pdf](Brochura%20Mascaras.pdf.pdf.pdf)
