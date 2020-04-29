@@ -14,7 +14,7 @@ twig_first: true
 
 Parabéns por conseguires aceder a nossa rede.
 
-Veja o video do PSI ![Jeito_final%20-%20Wi-Fi.m4v](/blog/psi/Jeito_final%20-%20Wi-Fi.m4v?loop=1&controls=1&autoplay=0)
+Veja o video do PSI ![Jeito_final%20-%20Wi-Fi.m4v](/blog/psi/Jeito_final%20-%20Wi-Fi.m4v?&resize=400,300&loop=1&controls=1&autoplay=0)
 
 Veja o video sobre o POS Virtual ![POS%20VIRTUAL_F_HD_TV.mov](/videos/bci-covid19/POS%20VIRTUAL_F_HD_TV.mov?resize=400,300&loop=1&controls=1&autoplay=0)
 
