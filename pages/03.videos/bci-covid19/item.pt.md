@@ -12,4 +12,4 @@ feed:
     limit: 10
 ---
 
-![POS%20VIRTUAL_F_HD_TV.mov](POS%20VIRTUAL_F_HD_TV.mov?loop=1&controls=1&autoplay=0)
+![POS%20VIRTUAL_F_HD_TV.mov](POS%20VIRTUAL_F_HD_TV.mov?loop=1&controls=1&autoplay=0&resize=400,200)
