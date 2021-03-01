@@ -1,42 +1,35 @@
 ---
 title: Home
-body_classes: title-center title-h1h2
+media_order: 'Cartaz Coronavirus Os Simtomas.jpg,Cartaz Coronavirus Homepage.jpg,Coronavirus Contactos emergencias.jpg'
+hide_git_sync_repo_link: false
+body_classes: 'title-center title-h1h2'
+process:
+    markdown: true
+    twig: true
+twig_first: true
 ---
 
-# Say Hello to Grav!
-## installation successful...
+# Olá!
+## Seja Bem Vindo à RICC
 
-Congratulations! You have installed the **Base Grav Package** that provides a **simple page** and the default **Quark** theme to get you started.
+Parabéns por conseguires aceder a nossa rede.
 
-!! If you see a **404 Error** when you click `Typography` in the menu, please refer to the [troubleshooting guide](http://learn.getgrav.org/troubleshooting/page-not-found).
+Veja o video do PSI ![Jeito_final%20-%20Wi-Fi.m4v](/blog/psi/Jeito_final%20-%20Wi-Fi.m4v?&resize=400,300&loop=1&controls=1&autoplay=0)
 
-### Find out all about Grav
+Veja o video sobre o POS Virtual ![POS%20VIRTUAL_F_HD_TV.mov](/videos/bci-covid19/POS%20VIRTUAL_F_HD_TV.mov?resize=400,300&loop=1&controls=1&autoplay=0)
 
-* Learn about **Grav** by checking out our dedicated [Learn Grav](http://learn.getgrav.org) site.
-* Download **plugins**, **themes**, as well as other Grav **skeleton** packages from the [Grav Downloads](http://getgrav.org/downloads) page.
-* Check out our [Grav Development Blog](http://getgrav.org/blog) to find out the latest goings on in the Grav-verse.
+[PSI](/blog/psi)
 
-!!! If you want a more **full-featured** base install, you should check out [**Skeleton** packages available in the downloads](http://getgrav.org/downloads).
+[Ver Videos](/videos?classes=button,big)
+![Coronavirus Flyer MINED](Coronavirus%20Contactos%20emergencias.jpg?lightbox=600,400&resize=200,400)
+![](Cartaz%20Coronavirus%20Os%20Simtomas.jpg?lightbox=600,400&resize=200,400)
+![Como Previnir do Corona](Cartaz%20Coronavirus%20Homepage.jpg?lightbox=600,400&resize=200,400)
 
-### Edit this Page
-
-To edit this page, simply navigate to the folder you installed **Grav** into, and then browse to the `user/pages/01.home` folder and open the `default.md` file in your [editor of choice](http://learn.getgrav.org/basics/requirements).  You will see the content of this page in [Markdown format](http://learn.getgrav.org/content/markdown).
-
-### Create a New Page
-
-Creating a new page is a simple affair in **Grav**.  Simply follow these simple steps:
-
-1. Navigate to your pages folder: `user/pages/` and create a new folder.  In this example, we will use [explicit default ordering](http://learn.getgrav.org/content/content-pages) and call the folder `03.mypage`.
-2. Launch your text editor and paste in the following sample code:
-
-        ---
-        title: My New Page
-        ---
-        # My New Page!
-
-        This is the body of **my new page** and I can easily use _Markdown_ syntax here.
-
-3. Save this file in the `user/pages/03.mypage/` folder as `default.md`. This will tell **Grav** to render the page using the **default** template.
-4. That is it! Reload your browser to see your new page in the menu.
-
-! NOTE: The page will automatically show up in the Menu after the "Typography" menu item. If you wish to change the name that shows up in the Menu, simple add: `menu: My Page` between the dashes in the page content. This is called the YAML front matter, and it is where you configure page-specific options.
+**Artigos mais recentes:**
+<ul>
+{% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
+    <li class="recent-posts">
+        <strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
+    </li>
+{% endfor %}
+</ul>
